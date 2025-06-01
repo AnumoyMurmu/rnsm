@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Message</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f8b6d2, #fcd5ce);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }h1 {
+  color: #a80038;
+}
+
+#loveMessage {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #5a189a;
+  display: none;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1e56;
+  transform: scale(1.05);
+}
+
+  </style>
+</head>
+<body>  <h1>Penguin ❤️</h1>
+  <button onclick="showMessage()">Click here baby</button></button>
+  <div id="loveMessage">I am so sorry 😔, I love you so much</div>  <script>
+    function showMessage() {
+      document.getElementById('loveMessage').style.display = 'block';
+    }
+  </script></body>
+</html>
